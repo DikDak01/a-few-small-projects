@@ -1,0 +1,26 @@
+
+print("Ja...ich kann fliegen.py")
+print("Author: Nik Nak")
+
+while(True):
+
+    Nomen1 = input("Bitte wähle ein Nomen aus:")
+    Nomen2 = input("Bitte wähle ein zweites Nomen aus:")
+    Adjektiv1 = input("Bitte wähle ein Adjektiv aus:")
+    Adjektiv2 = input("Bitte wähle ein zweites Adjektiv aus:")
+    Verb = input("Bitte wähle ein Verb aus:")
+    Zahl = input("Wähle eine Zahl von 0-10 aus:")
+    Zahl = int(Zahl)
+
+
+    if Zahl >= 10:
+        print("Deine Zahl ist zu hoch du Idiot!")
+        break
+    else:
+        print("Immerhin einer der es verstanden hat!")
+
+
+    print("Sara, Mike und ich finden unseren Vortrag", Adjektiv1 , "!")
+    print("Unser Thema", Nomen1 ,"wurde nicht", Adjektiv2 ,"recherchiert.")
+    print("Das Ding war, dass Niklas die ganze Zeit am", Nomen2 , Verb , "ist")
+    print("Aber egal hauptsache wir haben einen Vortrag, wir haben zwar", Zahl , "h gebraucht aber naja, fertig ist fertig!")
